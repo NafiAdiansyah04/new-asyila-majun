@@ -24,6 +24,12 @@ export const metadata = {
     type: 'website',
     locale: 'id-ID',
     siteName: 'Asyila Majun',
+    icons:{
+      icon: '/assets/favicon-new.ico',
+      apple: '/assets/apple-touch-icon.png',
+      shortcut: '/assets/favicon-new.ico',
+      alt: 'Asyila Majun'
+    }
   },
   robots: {
     index: true,

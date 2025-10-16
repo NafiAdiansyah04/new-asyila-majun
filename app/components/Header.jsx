@@ -2,6 +2,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -13,7 +14,14 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">AM</span>
+              <Image
+                src="/assets/apple-touch-icon.png"
+                alt="Logo Asyila Majun"
+                width={40}
+                height={40}
+                className="object-cover rounded-full"
+                priority
+              />
             </div>
             <span className="text-xl font-bold text-gray-800">Asyila Majun</span>
           </div>

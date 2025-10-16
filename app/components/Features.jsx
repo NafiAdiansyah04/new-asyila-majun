@@ -51,7 +51,7 @@ Lebih hemat, ramah lingkungan, dan tahan lama.
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="group bg-gradient-to-br from-blue-50 to-green-50 rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="group bg-gradient-to-br from-orange-50 to-blue-50 rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               <div className="text-5xl mb-6 transform group-hover:scale-110 transition-transform duration-300">
                 {feature.icon}

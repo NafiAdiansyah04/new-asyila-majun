@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 // app/components/Footer.jsx
 export default function Footer() {
   return (
@@ -8,7 +10,14 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold">AM</span>
+                <Image
+                src="/assets/apple-touch-icon.png"
+                alt="Logo Asyila Majun"
+                width={40}
+                height={40}
+                className="object-cover rounded-full"
+                priority
+              />
               </div>
               <span className="text-2xl font-bold">Asyila Majun</span>
             </div>
